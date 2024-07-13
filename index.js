@@ -103,7 +103,7 @@ if(age>=18){
  }*/
 
  //....................switch case.....................
-var a = parseInt(prompt("we have seven faucly name enter any number 1-7"))
+/*var a = parseInt(prompt("we have seven faucly name enter any number 1-7"))
 alert(a)
 switch(a){
     case 1:
@@ -122,12 +122,68 @@ switch(a){
 default :
 
         alert("no faculty")
-}
+}*/
 
+//......................calculator......................
+/*var a = parseInt(prompt(" enter number 1 for addition 2 for subtriction 3 for for multiply and 4 for division"))
+alert(a)
+switch(a){
+     case 1:
+        var num1 = parseInt(prompt(" enter any number "))
+        var num2 = parseInt(prompt(" enter any number "))
+        alert(num1 + num2)
+        break;
 
+    case 2:
+        var num1 = parseInt(prompt(" enter any number "))
+        var num2 = parseInt(prompt(" enter any number "))
+        alert(num1 - num2) 
+       break;
 
+    case 3: 
+        var num1 = parseInt(prompt(" enter any number "))
+        var num2 = parseInt(prompt(" enter any number "))
+        alert(num1 * num2) 
+       break;
 
+    case 4:
+        var num1 = parseInt(prompt(" enter any number "))
+        var num2 = parseInt(prompt(" enter any number "))
+        alert(num1 / num2) 
+       break;
 
+default :
+
+        alert( "invalid")
+}*/
+ //.........................do while loop.......................  
+ /*let a = 1
+
+ do{ 
+    alert(a++)
+
+ } while(a<=10)*/
+
+//................or......................
+
+/*var a = 1
+
+ do{ 
+    console.log(a);
+    a++;
+
+ } while(a<=10)*/
+
+ //.......................................table....  
+
+var num = parseInt(prompt("enter any number"))
+alert(num)
+var a=10
+ do{ 
+    alert(a*num);
+    a--;
+
+ } while(a>=1)
 
 
 
