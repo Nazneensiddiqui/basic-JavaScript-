@@ -13,7 +13,7 @@ while(a<11){
 
 }*/
 
-/*w.a.p.to print odd number b/w 1 to 20
+//w.a.p.to print odd number b/w 1 to 20
 var a =1
 while(a<=20){
     if(a%2!=0)
@@ -22,7 +22,7 @@ while(a<=20){
         } 
       a++
     
-}*/
+}
 //w.a.p.to print odd number b/w 1 to 2
 /*var a =1
 while(a<=20){
@@ -77,13 +77,13 @@ for(let  r=1; r<=5; r++)
     document.write("<br>")
 }*/
 
-for(let  r=1; r<=5; r++)
+/*for(let  r=1; r<=5; r++)
     {
     for(let c=1; c<=r; c++)
         {
     document.write("* ")
     }
     document.write("<br>")
-}
+}*/
 
     

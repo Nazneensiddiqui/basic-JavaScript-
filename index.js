@@ -25,9 +25,9 @@ alert(a+b)*/
 //if else condition.........
 
 //......................................................................................................
-//et num = parseInt(prompt("enter the number"))
-//console.log(num);
-/*if(num>0)
+/*let num = parseInt(prompt("enter the number"))
+console.log(num);
+if(num>0)
 {
  alert("positive")   
 }
@@ -125,37 +125,37 @@ default :
 }*/
 
 //......................calculator......................
-/*var a = parseInt(prompt(" enter number 1 for addition 2 for subtriction 3 for for multiply and 4 for division"))
+/*var a = parseInt(prompt(" enter number 1 for addition 2 for subtriction 3  for multiply and 4 for division"))
 alert(a)
 switch(a){
      case 1:
-        var num1 = parseInt(prompt(" enter any number "))
-        var num2 = parseInt(prompt(" enter any number "))
+        var num1 = parseInt(prompt(" enter 1st number "))
+        var num2 = parseInt(prompt(" enter 2nd number "))
         alert(num1 + num2)
         break;
 
     case 2:
-        var num1 = parseInt(prompt(" enter any number "))
-        var num2 = parseInt(prompt(" enter any number "))
+        var num1 = parseInt(prompt(" enter 1st number "))
+        var num2 = parseInt(prompt(" enter 2nd number "))
         alert(num1 - num2) 
        break;
 
     case 3: 
-        var num1 = parseInt(prompt(" enter any number "))
-        var num2 = parseInt(prompt(" enter any number "))
+        var num1 = parseInt(prompt(" enter 1st number "))
+        var num2 = parseInt(prompt(" enter 2nd number "))
         alert(num1 * num2) 
        break;
 
     case 4:
-        var num1 = parseInt(prompt(" enter any number "))
-        var num2 = parseInt(prompt(" enter any number "))
+        var num1 = parseInt(prompt(" enter 1st number "))
+        var num2 = parseInt(prompt(" enter 2nd number "))
         alert(num1 / num2) 
        break;
 
 default :
 
         alert( "invalid")
-}*/
+}*
  //.........................do while loop.......................  
  /*let a = 1
 
