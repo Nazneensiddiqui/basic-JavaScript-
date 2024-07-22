@@ -37,7 +37,7 @@ console.log(demo(a))*/   //...................print 20 value...
 //....................with para & no return value.............
 
 /*function demo(c){
-console.log(demo(c))
+console.log(c)
 }
 var age = 32
 demo(age)*/
@@ -80,13 +80,13 @@ else{
   var num = parseInt(prompt("enter any number"))
   demo(num)*/
 
-  function demo (){
+ /* function demo (){
    var s=0
     for(let a=1; a<=10; a++){
     s=s+a
     }
     return s;
     }
-    console.log(demo())
+    console.log(demo())*/
 
   
