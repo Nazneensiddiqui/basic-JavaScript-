@@ -11,13 +11,21 @@ for (let v in ar){
     console.log(v);
 }*/
 
-let size = 10; // Size of the multiplication table
+// let size = 10; // Size of the multiplication table
 
-for (let i = 1; i <= size; i++) {
-  let coloum = "";
-  for (let j = 1; j <= size; j++) {
-    coloum += (i * j).toString().padStart(4, " ");
-  }
-  console.log(coloum);
+// for (let i = 1; i <= size; i++) {
+//   let coloum = "";
+//   for (let j = 1; j <= size; j++) {
+//     coloum += (i * j).toString().padStart(4, " ");
+//   }
+//   console.log(coloum);
+// }
+
+let size = 10;
+for(let i=0; i<=size; i++){
+  let coloum ="";
+  for(let j=0; j<=size; j++){
+    coloum +=(j*i).toString().padStart(4,)
 }
-
+console.log(coloum)
+}
