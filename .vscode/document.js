@@ -4,32 +4,23 @@
 // document.getElementById("head").style.color="yellow"
 // document.getElementById("head").style.alignItems="center"
 
-let first_heading = document.getElementById("head")
-first_heading.style.color="red"
-first_heading.style.backgroundColor ="yellow"
-first_heading.innerHTML="my js class "
+// let first_heading = document.getElementById("head")
+// first_heading.style.color="red"
+// first_heading.style.backgroundColor ="yellow"
+// first_heading.innerHTML="my js class "
+
 
 
 let list = document.getElementsByTagName("li")
-list[0].style.backgroundColor="red"
-
-
-let order = document.getElementsByTagNameNS("li")
-for(let a=0; a<=10; a++){
-if(a%2==0){
-    order[a].style.backgroundColor="red"}
-    else{
-        order[a].style.backgroundColor="white"
-    }
+for(let i=0; i<=10; i++){
+if((i+1)%2===0){
+    list[i].style.backgroundColor="gray"}
 }
 
-const listItems = document.getElementById('numberList').getElementsByTagName('li');
+let heading = document.getElementById("head")
+heading.style.cssText = "background-Color:yellow; color:red; padding:20px;"
+heading.innerHTML="<u> ORACLE </u>"
+heading.innerText="text change"
 
-// Loop through each <li> element
-for (let i = 0; i < listItems.length; i++) {
-  const number = parseInt(listItems[i].textContent, 10);
-  // If the number is even, add the gray background color
-  if (number % 2 === 0) {
-    listItems[i].style.backgroundColor = 'gray';
-  }
-}
+let image = document.getElementById("image1")
+image.src="../pot.webp"

@@ -3,7 +3,7 @@
 let b = 5
 console.log(a==b) true*/
 
-//..............comperssion === value and data type 
+//..............comperssion === value and data type dono batat he  
 
 /*let a = '5'
 let b = 5
@@ -15,10 +15,10 @@ console.log(a===b) false*/
 
 //w.a.p. to check number is even or odd
 
-//var a = parseInt(prompt("enter any number"));
+let a = 245;
+(a%2==0) ? console.log("even") : console.log("odd")
 
 
-
-
+//const result = (number % 2 === 0) ? 'Even' : 'Odd';
 
 

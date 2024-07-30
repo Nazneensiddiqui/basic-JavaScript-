@@ -22,9 +22,8 @@ alert(a+b)*/
 //var h= parseInt(prompt("enter any number"))
 //alert(1/2*a*h)
 
-//if else condition.........
+//...................if else condition.......................  
 
-//......................................................................................................
 /*let num = parseInt(prompt("enter the number"))
 console.log(num);
 if(num>0)
@@ -37,7 +36,7 @@ else{
 
 //...................nasted......................................................................
 //let num = parseInt(prompt("enter the number"))
-//console.log(num);
+
 /*if(num%2!=0)
 {
   alert("odd")  
@@ -46,7 +45,7 @@ else
 {
     alert("even")
 }*/
-
+ 
 /*if(num>0){
     alert("+ve num")
 }
@@ -75,26 +74,26 @@ else{
    alert("paese nahi he ham ghar par rahenge") 
 }*/
 
-/*let num = parseInt(prompt("enter the number"))
-console.log(num);
+// let num = parseInt(prompt("enter the number"))
+// console.log(num);
 
-if(num%2==0){
-    alert(num*num)
-}
-else{
-    alert(num*num*num)
-}*/
+// if(num%2==0){
+//     alert(num*num)
+// }
+// else{
+//     alert(num*num*num)
+// }
 
 //..............nasted.................................
 
 /*var age = parseInt(prompt("enter your age"))
-
+alert(a)
 if(age>=18){
     var ind=parseInt(prompt("press 1 for "))
     if(ind==1){
         alert("eligible")
     }
-    else{
+    else{ 
         alert("not eligible")
     }
  }
@@ -155,12 +154,12 @@ switch(a){
 default :
 
         alert( "invalid")
-}*
+}*/
  //.........................do while loop.......................  
  /*let a = 1
 
  do{ 
-    alert(a++)
+    console.log(a++)
 
  } while(a<=10)*/
 
@@ -180,7 +179,7 @@ var num = parseInt(prompt("enter any number"))
 alert(num)
 var a=10
  do{ 
-    alert(a*num);
+    console.log(a*num);
     a--;
 
  } while(a>=1)
