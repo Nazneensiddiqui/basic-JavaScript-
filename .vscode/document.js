@@ -20,7 +20,7 @@ if((i+1)%2===0){
 let heading = document.getElementById("head")
 heading.style.cssText = "background-Color:yellow; color:red; padding:20px;"
 heading.innerHTML="<u> ORACLE </u>"
-heading.innerText="text change"
+//heading.innerText="text change"
 
 let image = document.getElementById("image1")
 image.src="../pot.webp"

@@ -44,13 +44,16 @@ demo(age)*/
 
 //....................19/7/2024..........................
 // W.A.P to take from user and print the table using function..
-/*function demo (n)
-{
+
+/*function demo (n){
 for(let i=0; i<=10; i++)
   console.log(n*i) 
 }
+
 var num = parseInt(prompt("enter any number"))
 demo(num)*/
+
+
 
 //W.A.Pto take user and print cube object using with para and no return value
 
@@ -80,13 +83,14 @@ else{
   var num = parseInt(prompt("enter any number"))
   demo(num)*/
 
- /* function demo (){
+ function demo (){
    var s=0
     for(let a=1; a<=10; a++){
     s=s+a
     }
     return s;
     }
-    console.log(demo())*/
+  
+    console.log(demo())
 
   

@@ -10,7 +10,29 @@
     <button ondblclick="fun()">on double click</button>
     <button oncontextmenu="fun1()">Right click</button>
 
-    <script>
+
+
+
+<div align="center">
+    <form action="" onsubmit="return data()">
+        <label for="">num1</label>
+        <input type="text" id="num1"><br><br>
+        <label for="">num2</label>
+        <input type="text" id="num2"><br><br>
+        <input type="submit">
+            </form>
+    <h1 id="result" style="background-color: yellow;" >result</h1>
+
+    
+    <button onclick="col()">Orenge</button>
+    <button onclick="col1()">Green</button>
+    <button onclick="col2()">Red</button>
+    <button onclick="col3()">yellow</button>
+
+
+
+
+<script>
         function button_clicked()
         {
             alert("event working")
@@ -23,6 +45,40 @@
         function fun1(){
             alert("right working")
         }
+
+
+     function data(){
+    let num1 =parseInt(document.getElementById("num1").value);
+    let num2 = parseInt(document.getElementById("num2").value);
+    let r = num1+num2
+        document.getElementById("result").innerHTML= r
+    document. getElementById("result").style.border="3px"
+
+    return false;
+}
+
+function col()
+        {
+   let a = document.body
+   a.style.backgroundColor="orange"
+        }
+        function col1()
+        {
+    let a = document.body
+   a.style.backgroundColor="green"
+}
+    function col2()
+        {
+ let a = document.body
+   a.style.backgroundColor="red"
+}
+    function col3()
+        {
+   let a = document.body
+   a.style.backgroundColor="blue"
+}
+
+
     </script>
 </body>
 </html>

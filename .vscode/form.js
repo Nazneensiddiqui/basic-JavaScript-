@@ -31,6 +31,7 @@ function dec(){
     a--;
     c.innerHTML = 500*a;
     b.innerHTML = a;
-}}
+}
+}
 
-//...............image task.................
+

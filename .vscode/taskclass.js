@@ -12,31 +12,82 @@ if(namee==""){
     document.getElementById("name"). focus()
     return false;
 }
+//...................contact............
 if(contact==""){
     alert("please fill contact field")
     document.getElementById("contact"). focus()
     return false;
 }
+
+else if(isNaN(contact)){
+    alert("only digit")
+    document.getElementById("contact"). focus()
+    return false;
+}
+else if(contact.length<10 || contact.length>10)
+    {alert("only 10 digit no.")
+    document.getElementById("contact"). focus()
+    return false;
+    }
+   
+
+    //.................age.............
 if(age==""){
     alert("please fill age field")
     document.getElementById("age"). focus()
     return false;
+
 }
+else if(isNaN(age)){
+    alert("only digit")
+    document.getElementById("age"). focus()
+    return false;
+}
+
+//...............email.................
 if(email==""){
     alert("please fill email field")
     document.getElementById("email"). focus()
     return false;
 }
+else if(!(email.include("@"))){
+    alert("@ it is a must")
+    document.getElementById("email"). focus()
+    return false;
+}
+
+
+//............password............
+
 if(password==""){
     alert("please fill password field")
     document.getElementById("password"). focus()
     return false;
 }
+else if(!(password.match([/@ #  % & * ; :/]))){
+    alert(" no match")
+    document.getElementById("password"). focus()
+    return false;
+}
+
+
+//...........confome password....................
+
+
 if(conf==""){
     alert("please fill name field")
     document.getElementById("conf"). focus()
     return false;
 }
+else if(password!=conf){
+    alert(" no match")
+    document.getElementById("conf"). focus()
+    return false;
+}
+
+
+
+
 
 
 
