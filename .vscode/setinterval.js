@@ -21,21 +21,24 @@
 // setTimeout(()=>{alert("this working")},2000)
 
 //..................DATE....................
-let date = new Date()
-console.log(date)
+// let date = new Date()
+// console.log(date)
 // console.log(date.toLocaleTimeString());
 //  console.log(date.toLocaleDateString());
 // console.log(date.toTimeString())
   
 //...........digital clock make.....................
-// setInterval(()=>{
-//     let date = new Date()
-//     let timee = date.toLocaleTimeString()
-//     let dg = document.getElementById("digital_clock")
-//     dg.innerHTML = timee
-//     dg.style.backgroundColor
+setInterval(()=>{
+    let date = new Date()
+    let timee = date.toLocaleTimeString()
+    let dg = document.getElementById("digital_clock")
+    dg.innerHTML = timee
+    dg.style.backgroundColor="yellow";
+    dg.style.height="200px";
+    dg.style.width="200px";
+    dg.style.border="2px solid";
 
-// },1000)
+ },1000)
 
 
 

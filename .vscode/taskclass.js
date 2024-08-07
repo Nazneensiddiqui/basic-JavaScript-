@@ -9,24 +9,24 @@ let password = document.getElementById("password").value
 let conf = document.getElementById("conf").value
 if(namee==""){
     alert("please fill name field")
-    document.getElementById("name"). focus()
+    document.getElementById("name").focus()
     return false;
 }
 //...................contact............
 if(contact==""){
     alert("please fill contact field")
-    document.getElementById("contact"). focus()
+    document.getElementById("contact").focus()
     return false;
 }
 
 else if(isNaN(contact)){
     alert("only digit")
-    document.getElementById("contact"). focus()
+    document.getElementById("contact").focus()
     return false;
 }
 else if(contact.length<10 || contact.length>10)
     {alert("only 10 digit no.")
-    document.getElementById("contact"). focus()
+    document.getElementById("contact").focus()
     return false;
     }
    
@@ -34,25 +34,25 @@ else if(contact.length<10 || contact.length>10)
     //.................age.............
 if(age==""){
     alert("please fill age field")
-    document.getElementById("age"). focus()
+    document.getElementById("age").focus()
     return false;
 
 }
 else if(isNaN(age)){
     alert("only digit")
-    document.getElementById("age"). focus()
+    document.getElementById("age").focus()
     return false;
 }
 
 //...............email.................
 if(email==""){
     alert("please fill email field")
-    document.getElementById("email"). focus()
+    document.getElementById("email").focus()
     return false;
 }
-else if(!(email.include("@"))){
+else if(!(email.includes("@"))){
     alert("@ it is a must")
-    document.getElementById("email"). focus()
+    document.getElementById("email").focus()
     return false;
 }
 
@@ -61,12 +61,12 @@ else if(!(email.include("@"))){
 
 if(password==""){
     alert("please fill password field")
-    document.getElementById("password"). focus()
+    document.getElementById("password").focus()
     return false;
 }
-else if(!(password.match([/@ #  % & * ; :/]))){
-    alert(" no match")
-    document.getElementById("password"). focus()
+else if(!(password.match(/[@#%&*;:]/))){
+    alert(" using spacial charecter @")
+    document.getElementById("password").focus()
     return false;
 }
 
@@ -75,23 +75,13 @@ else if(!(password.match([/@ #  % & * ; :/]))){
 
 
 if(conf==""){
-    alert("please fill name field")
-    document.getElementById("conf"). focus()
+    alert("please fill confirm password field")
+    document.getElementById("conf").focus()
     return false;
 }
 else if(password!=conf){
-    alert(" no match")
-    document.getElementById("conf"). focus()
+    alert("no match")
+    document.getElementById("conf").focus()
     return false;
 }
-
-
-
-
-
-
-
-
-
-
 }
