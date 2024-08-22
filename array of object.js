@@ -36,7 +36,7 @@ let y = employee.map((p)=>{return p.name})
 console.log(y)
 let f = employee.map((p)=>{return p})
 console.log(f)
-let g = employee.map((p)=>{return p.designation})
+let g = employee.map((p)=>{return p.designation})//.......map function me agar condition lagate heto woh sirf true false me ansere return karta he
 console.log(g)
 let h = employee.filter((e)=>{return e.age>22})
 console.log(h)

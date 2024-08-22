@@ -6,7 +6,7 @@
 //     console.log(v);
 // }
 
-//..............for in loop.............indexing print karta he.....object me use hoga..
+//......for in loop.............indexing print karta he.....object me use hoga..
 
 // let ar = [10,9,8,7,6,5,4,3,2,1]
 // for (let v in ar){
